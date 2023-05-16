@@ -8,7 +8,6 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.Toast;
 
 import com.example.thirdhomeworkoneunitfour.R;
@@ -23,7 +22,7 @@ import java.util.List;
 public class SecondActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private FloatingActionButton fabAdd;
-    private DatabaseHelper deleteAllNotes;
+    private View deleteAllNotes;
     private List<Notebook> notesList;
     private DatabaseHelper database;
     private RecyclerView.Adapter adapter;
